@@ -7,4 +7,8 @@ public class Biblioteca {
         public Biblioteca() {
             this.libros = new LinkedList<>();
         }
+
+    public void agregarLibro(Libro l) {
+        libros.add(l);
+    }
 }
