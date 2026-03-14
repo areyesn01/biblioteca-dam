@@ -24,4 +24,8 @@ public class Biblioteca {
     public void prestarLibro(Libro l) {
         libros.remove(l);
     }
+
+    public void devolverLibro(Libro l) {
+        libros.add(l);
+    }
 }
