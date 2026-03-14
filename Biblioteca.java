@@ -20,4 +20,8 @@ public class Biblioteca {
             System.out.println(l);
         }
     }
+
+    public void prestarLibro(Libro l) {
+        libros.remove(l);
+    }
 }
