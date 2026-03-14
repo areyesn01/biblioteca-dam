@@ -13,7 +13,9 @@ public class Biblioteca {
     }
 
     public void mostrarLibro(){
-        System.out.println("Mostrando libros: ");
+        System.out.println("CATALOGO DE LIBROS");
+        System.out.println("------------------");
+
         for (Libro l: libros){
             System.out.println(l);
         }
